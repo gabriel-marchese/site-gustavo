@@ -234,20 +234,31 @@ section{
   align-items: center;
   width: 250px;
   height: 300px;
-  background-color: #f3f3f3;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
-  border-radius: 10px;
 }
 
 .project-card img {
-  margin: 30px 0px;
+  margin: 10px 0px;
   width: 200px;
+}
+
+.project-card h3{
+  margin: 10px;
+}
+
+.project-card p{
+  text-align: center;
 }
 
 .project-card-a{
   text-decoration: none;
   color: rgb(55, 55, 55);
 }
+
+.project-card-a:hover{
+  transform: scale(1.1);
+  transition: 200ms;
+}
+
 
 footer{
   background-color: #c5cbff;
@@ -271,13 +282,15 @@ footer span {
   
   h1{
     font-size: 17px;
-    padding-left: 20px;
   }
   
   .menu-links a {
     display: none;
   }
   
+  .description p{
+    font-size: 20px;
+  }
   .hability{
     flex-direction: column;
     width: 100vw;
