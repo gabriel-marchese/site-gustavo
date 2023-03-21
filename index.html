@@ -15,8 +15,8 @@
             </div>
             <div class="menu-links">
                 <a href="#">Início</a>
-                <a href="#">Sobre</a>
-                <a href="#">Projetos</a>
+                <a href="#habilitys">Sobre</a>
+                <a href="#projectId">Projetos</a>
             </div>
         </nav>
     </header>
@@ -28,7 +28,7 @@
                         <p>Eu sou</p>
                         <p><span> Gustavo Figueiredo</span></p>
                         <p class="otherC">Cursando Engenharia da computação, atualmente estudando Machine Learning com Tensorflow, Keras e Pytorch </p>
-                        <div class="btn"><a href="#">Meu Portfólio</a></div>
+                        <div class="btn"><a href="#" class="button">Meu Portfólio</a></div>
                     </div>
                 </div>
                 <div class="self-content">
@@ -36,7 +36,7 @@
                 </div>
             </section>
         </section>
-        <section class="hability-container">
+        <section class="hability-container" id="habilitys">
             <div class="habilitySection">
                 <div class="habilityDescription">
                     <h2 id="h2-hability">Minhas Habilidades</h2>
@@ -103,28 +103,36 @@
                 </div>
             </div>
         </section>
-        <section class="">
+        <section class="section-project" id="projectId">
             <div class="main-content projects">
-                <a href="" class="project-card-a">
-                    <div class="project-card">
-                        <div><img src="image/project1.jpg" alt=""></div>
-                        <h3>Projeto 1</h3>
-                        <div><p>Este projeto é sobre Lorem ipsum dolor sit amet consectetur, adipisicing elium accusantium rem, voluptatem temporibus molestias molestiae rerum quas cupiditate aliquam qui illum doloremque reiciendis.</p></div>
-                    </div>
-                </a>
-                <a href="" class="project-card-a">
-                    <div class="project-card">
-                        <div><img src="image/project1.jpg" alt=""></div>
-                        <div>
-                            <h3>Projeto 2</h3>
-                            <p>Este projeto é sobre Lorem ipsum dolor sit amet consectetur adipiecessitatibus cumque deserunt voluptates fuga non praesentium velit quia aliquam dolorem assumenda quo mollitia quod perferendis id.</p></div>
-                    </div>
-                </a>
+                <div>
+                    <h2 id="project-title">Projetos</h2>
+                </div>
+                <div class="section-cards">
+                    <a href="" class="project-card-a" id="card1">
+                        <div class="project-card">
+                            <div><img src="image/project1.jpg" alt=""></div>
+                            <h3>Projeto 1</h3>
+                            <div><p>Este projeto é sobre Lorem ipsum dolor sit amet consectetur, adipisicing elium accusantium rem, voluptatem temporibus molestias molestiae rerum quas cupiditate aliquam qui illum doloremque reiciendis.</p></div>
+                        </div>
+                    </a>
+                    <a href="" class="project-card-a">
+                        <div class="project-card">
+                            <div><img src="image/project1.jpg" alt=""></div>
+                            <div>
+                                <h3>Projeto 2</h3>
+                                <p>Este projeto é sobre Lorem ipsum dolor sit amet consectetur adipiecessitatibus cumque deserunt voluptates fuga non praesentium velit quia aliquam dolorem assumenda quo mollitia quod perferendis id.</p></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="btn-projects">
+                    <a href="#" class="button" id="btn-port">Portfólio</a>
+                </div>
             </div>
         </section>
         <footer>
             <div><p>Gustavo desempregado e fudido</p></div>
-            <div><p>Site desenvolvido por <span>Gabriel Marchese</span></p></div>
+            <div><p>Site desenvolvido por <a href="https://gabriel-marchese.github.io/projeto-portifolio/" target="_blank">Gabriel Marchese</a></p></div>
         </footer>
     </main>
 </body>
