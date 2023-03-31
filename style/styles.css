@@ -30,6 +30,15 @@ header{
   
 }
 
+.mobile-menu-icon{
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+
 .main-content{
   max-width: 1000px;
   display: flex;
@@ -237,8 +246,9 @@ section{
 }
 
 .projects{
-  height: 60vh;
+  height: 80vh;
   flex-direction: column;
+  justify-content: center;
 }
 
 .project-card{
@@ -251,8 +261,7 @@ section{
 }
 
 .project-card img {
-  margin: 10px 0px;
-  width: 200px;
+  width: 180px;
 }
 
 .project-card h3{
@@ -260,7 +269,7 @@ section{
 }
 
 .project-card p{
-  text-align: center;
+  text-align: justify;
 }
 
 .project-card-a{
@@ -274,7 +283,7 @@ section{
 }
 
 .btn-projects{
-  margin-top: 40px;
+  margin-top: 100px;
   padding: 10px;
   width: 100vw;
   display: flex;
@@ -312,13 +321,17 @@ footer div a:hover {
   text-shadow: 0px 0px 9px fuchsia;
 }
 
+.button-end{
+  display: none;
+}
+
 @media screen and (max-width: 630px) {
   
   h1{
     font-size: 17px;
   }
   
-  .menu-links a {
+  .menu-links {
     display: none;
   }
   
@@ -334,10 +347,13 @@ footer div a:hover {
     width: 250px;
     margin-bottom: 20px;
   }
-  
+
+
   nav{
-    justify-content: space-around;
+    justify-content: center;
+    padding: 10px;
   }
+
 
   span {
     font-size: 15px;
@@ -366,11 +382,11 @@ footer div a:hover {
   }
 
   .projects{
-    height: 100vh;
+    height: 1200px;
   }
 
   .section-project{
-    height: 900px;
+    height: 1200px;
   }
 
   .section-cards{
